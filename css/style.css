@@ -1,0 +1,83 @@
+body {
+    background-color: black;
+    background-image: url(../assets/png/GB-brick-background.png);
+    background-repeat: no-repeat; 
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  h1 {
+    color: #bf9933;
+    text-align: center;
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+
+  .responsive {
+    align-content: center;
+    width: 100%;
+    height: auto;
+  }
+
+  div.absolute {
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+  }
+
+  .fa-facebook-f {
+    color:  #bf9933;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .fa-twitter {
+    color: #bf9933;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .fa-instagram {
+    color:  #bf9933;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .fa-youtube {
+    color:  #bf9933;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .fa-apple {
+    color:  #bf9933;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  .fa-soundcloud {
+    color:  #bf9933;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .fa-amazon {
+    color:  #bf9933;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .fa-bandcamp {
+    color:  #bf9933;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
