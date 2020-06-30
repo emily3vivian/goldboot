@@ -1,59 +1,57 @@
 body {
-    background-color: black;
-    background-image: url(../assets/png/GB-brick-background.png);
-    background-repeat: no-repeat; 
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: cover;
+	background-color: black;
+	background-image: url(../assets/png/GB-brick-background.png);
+	background-repeat: no-repeat; 
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+	
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 30px;
   }
 
 .flex-container {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  padding: 0;
-  margin: 0;
-  list-style: none;
+	display: flex;
+	flex-flow: nowrap;
+	justify-content: space-evenly;	
+	list-style: none;
+	margin: auto;
+	align-items: center;
+	width: 600px;
 }
 
 .flex-item {
-  padding: 5px;
-  width: 200px;
-  height: 150px;
-  margin-top: 10px;
-  line-height: 150px;
-  text-align: center;
+	padding: 5px;
 }
 
 .fa-facebook-f {
-  color:  #bf9933;
+  	color:  #bf9933;
 }
 
 .fa-twitter {
-  color: #bf9933;
+  	color: #bf9933;
 }
 
 .fa-instagram {
-  color:  #bf9933;
+  	color:  #bf9933;
 }
 
 .fa-youtube {
-  color:  #bf9933;
+  	color:  #bf9933;
 }
 
 .fa-apple {
-  color:  #bf9933;
-}
-.fa-soundcloud {
-  color:  #bf9933;
+  	color:  #bf9933;
 }
 
-.fa-amazon {
-  color:  #bf9933;
+.fa-tshirt {
+  	color:  #bf9933;
 }
 
-.fa-bandcamp {
-  color:  #bf9933;
+.fa-spotify {
+  	color:  #bf9933;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
@@ -70,19 +68,11 @@ body {
 	text-rendering:optimizeLegibility;
 }
 
-body {
-	font-family:"Open Sans", Helvetica, Arial, sans-serif;
-	font-weight:300;
-	font-size: 12px;
-	line-height:30px;
-	color: black;
-}
-
 .container {
-	max-width:500px;
-	width:100%;
-	margin:0 auto;
-	position:relative;
+	max-width: 600px;
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
 }
 
 #contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
@@ -110,47 +100,47 @@ fieldset {
 	margin: 0 0 10px;
 	min-width: 100%;
 	padding: 0;
-  width: 100%;
+  	width: 100%;
 }
 
 #contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
 	width:100%;
-  border:1px solid #bf9933;
-  background: white;
+  	border:1px solid #bf9933;
+  	background: white;
 	margin:0 0 5px;
-  padding:10px;
+  	padding:10px;
 }
 
 #contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
 	-webkit-transition:border-color 0.3s ease-in-out;
 	-moz-transition:border-color 0.3s ease-in-out;
 	transition:border-color 0.3s ease-in-out;
-  border:1px solid #AAA;
-  font-weight: 900;
+  	border:1px solid #AAA;
+  	font-weight: 900;
 }
 
 #contact textarea {
 	height:100px;
 	max-width:100%;
-  resize:none;
+  	resize:none;
 }
 
 #contact button[type="submit"] {
 	cursor:pointer;
 	width:100%;
 	border-style: solid;
-  border-color: #bf9933;
-  color:#bf9933;
-  background: white;
+  	border-color: #bf9933;
+  	color:#bf9933;
+  	background: white;
 	margin:0 0 5px;
 	padding:10px;
-  font-size:15px;
-  font-weight: 900;
+  	font-size:15px;
+  	font-weight: 900;
 }
 
 #contact button[type="submit"]:hover {
-  background:#bf9933;
-  color: white;
+  	background:#bf9933;
+  	color: white;
 	-webkit-transition:background 0.3s ease-in-out;
 	-moz-transition:background 0.3s ease-in-out;
 	transition:background-color 0.3s ease-in-out;
@@ -163,15 +153,15 @@ fieldset {
 	border:1px solid #bf9933;
 }
 ::-webkit-input-placeholder {
- color: #bf9933;
+ 	color: #bf9933;
 }
 :-moz-placeholder {
- color: #bf9933;
+ 	color: #bf9933;
 }
 ::-moz-placeholder {
- color: #bf9933;
+ 	color: #bf9933;
 }
 :-ms-input-placeholder {
- color: #bf9933;
+ 	color: #bf9933;
 }
 
